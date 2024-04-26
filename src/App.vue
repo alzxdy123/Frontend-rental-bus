@@ -1,7 +1,7 @@
 <template>
   <div>
     <RouterView />
-    <Notifications />
+    <Notifications class="notifications" />
   </div>
 </template>
 

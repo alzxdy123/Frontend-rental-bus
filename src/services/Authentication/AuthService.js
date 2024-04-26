@@ -13,4 +13,10 @@ export default {
     config = header.authHeader();
     return AXIOS.get("/auth/logout", config);
   },
+
+  AuthSignUp(data) {
+    let config = {};
+    config = header.authHeader();
+    return AXIOS.post("/v1/register", data, config);
+  },
 };

@@ -8,5 +8,10 @@ $font-size-base: 0.8125rem;
   font-size: $font-size-base;
   padding: 0;
   margin: 0;
-  box-sizing: border-box;
+}
+
+.notifications {
+  position: absolute;
+  top: 20px !important;
+  right: 20px !important;
 }

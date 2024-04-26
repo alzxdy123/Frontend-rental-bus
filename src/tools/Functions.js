@@ -19,4 +19,14 @@ export default {
       return error;
     });
   },
+
+  ErrorMessage(error) {
+    const errors = {};
+    for (const field in error) {
+      if (Array.isArray(error[field]) && error[field].length > 0) {
+        errors[field] = error[field][0];
+      }
+    }
+    return errors;
+  },
 };
