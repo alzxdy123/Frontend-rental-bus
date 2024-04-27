@@ -10,7 +10,9 @@
           <div class="navbar-list">
             <i class="jam jam-language"></i> Language
           </div>
-          <div class="navbar-list"><i class="jam jam-grid"></i> Dashbaord</div>
+          <router-link to="/dashboard" class="navbar-list">
+            <i class="jam jam-grid"></i> Dashbaord
+          </router-link>
           <div class="navbar-list" @click="logout()">
             <i class="jam jam-log-out"></i> Logout
           </div>
@@ -46,7 +48,9 @@
         <i class="jam jam-user"></i>
       </div>
     </div>
-    <div class="body"></div>
+    <div class="body">
+      <router-view></router-view>
+    </div>
   </div>
 </template>
 

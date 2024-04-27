@@ -15,3 +15,21 @@ $font-size-base: 0.8125rem;
   top: 20px !important;
   right: 20px !important;
 }
+
+.container {
+  background: white;
+  padding: 20px;
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+}
+
+th {
+  font-size: 18px;
+  font-weight: 550;
+}
+
+td {
+  font-size: 15px;
+  font-weight: 500;
+}

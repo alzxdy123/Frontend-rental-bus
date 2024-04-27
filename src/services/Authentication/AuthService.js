@@ -1,5 +1,5 @@
-import { AXIOS } from "../server";
-import header from "../header";
+import { AXIOS } from "../common/server";
+import header from "../common/header";
 
 export default {
   AuthLogin(data) {
